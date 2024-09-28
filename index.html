@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Media Queries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #027017;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #02c028;
+            border: 3px solid #026014;
+        }
+
+        nav ul li {
+            padding: 1em;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Media query para impressão */
+        @media print {
+            nav {
+                display: none;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Media query para smartphones */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Media query para tablets */
+        @media (min-width: 601px) and (max-width: 900px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Media query para desktops */
+        @media (min-width: 901px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Orientação landscape */
+        @media (orientation: landscape) {
+            body {
+                background-color: #f0f0f0;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Orientação portrait */
+        @media (orientation: portrait) {
+            body {
+                background-color: #fff;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biomas do Brasil</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Localização</a></li>
+            <li><a href="#">Preço</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="gallery">
+        <img src="https://static.escolakids.uol.com.br/conteudo/images/2019/03/bioma-amazonia.jpg" alt="Imagem 1">
+        <img src="https://static.escolakids.uol.com.br/conteudo/images/2019/03/bioma-cerrado.jpg" alt="Imagem 2">
+        <img src="https://static.escolakids.uol.com.br/conteudo/images/2019/03/bioma-caatinga.jpg" alt="Imagem 3">
+        <img src="https://static.escolakids.uol.com.br/conteudo/images/2019/03/bioma-mata-atlantica.jpg" alt="Imagem 4">
+        <img src="https://static.escolakids.uol.com.br/conteudo/images/2019/03/bioma-pantanal.jpg" alt="Imagem 5">
+        <img src="https://static.escolakids.uol.com.br/conteudo/images/2019/03/bioma-pampa.jpg" alt="Imagem 6">
+    </div>
+</body>
+</html>
