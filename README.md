@@ -129,3 +129,34 @@ Para especificar a aparência da página em diferentes orientações, usa-se a m
         }
 
 ```
+
+<h2 id="autores"> Autores </h2>
+
+<h3>Naomi Arakaki</h3>
+<img src="imgs cod/E919DE67-90A4-433E-93BA-9FBC40BB2CF1.jpeg">
+
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/naomi-suguimoto-57436b290/)](https://www.linkedin.com/in/naomi-suguimoto-57436b290)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:arakakinaomi228@gmail.com)](mailto:arakakinaomi228@gmail.com)
+
+
+<a href="">
+ <br />
+<h3>Gabriel Aboboreira</h3>
+<img style="border-radius:50%;width=300px; height:430px;"  alt="" src="imgs cod/2023-05-26at08.21.20.jpeg">
+
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-aboboreira/)](https://www.linkedin.com/in/gabriel-aboboreira/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:masterkillbr007@gmail.com)](mailto:masterkillbr007@gmail.com)
+
+<a href="">
+ <br />
+<h3>Ana Julia Blande</h3>
+<img style="border-radius: 50%;" width="300px;" height= "400px;" src="imgs cod/ana.jpeg">
+
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/ana-julia-blande-silva-348612286/)](https://www.linkedin.com/in/ana-julia-blande-silva-348612286/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:anajblande04@gmail.com)](mailto:anajblande04@gmail.com)
