@@ -141,8 +141,6 @@ Para especificar a aparência da página em diferentes orientações, usa-se a m
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:arakakinaomi228@gmail.com)](mailto:arakakinaomi228@gmail.com)
 
 
-<a href="">
- <br />
 <h3>Gabriel Aboboreira</h3>
 
 
@@ -150,8 +148,7 @@ Para especificar a aparência da página em diferentes orientações, usa-se a m
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:masterkillbr007@gmail.com)](mailto:masterkillbr007@gmail.com)
 
-<a href="">
- <br />
+
 <h3>Ana Julia Blande</h3>
 
 
