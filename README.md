@@ -1,4 +1,4 @@
-# POC-3-CSS-Media-Queries
+# POC 3: CSS Media Queries
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
